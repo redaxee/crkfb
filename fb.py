@@ -177,7 +177,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open https://www.youtube.com/nganunymous')
+                            os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
                             keluar()
                         else:
                             if zedd == '0':
@@ -504,7 +504,7 @@ def scrak():
     except IOError:
         print '\n\x1b[1;91m[!] Koneksi terganggu'
         time.sleep(1)
-    except requests.exceptions.ConnectionError:
+    except requests.exceptions.ConnectionErrorF:
         print '\x1b[1;91m[\xe2\x9c\x96] Tidak ada koneksi'
 
 
